@@ -7,7 +7,7 @@
     "build": "turbo run build",
     "typecheck": "turbo run typecheck",
     "lint": "turbo run lint",
-    "test": "turbo run test",
+    "test": "vitest run",
     "check:contracts": "node scripts/check-contracts.mjs"
   },
   "devDependencies": {

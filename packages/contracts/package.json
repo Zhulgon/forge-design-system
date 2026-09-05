@@ -2,6 +2,6 @@
   "name": "@forge/contracts",
   "version": "0.1.0",
   "type": "module",
-  "exports": { ".": { "types": "./src/index.ts", "import": "./dist/index.js" } },
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
   "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc -p tsconfig.json --noEmit" }
 }

@@ -45,11 +45,11 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
       onClick={loading ? undefined : onClick}
     >
       <span className="forge-button__content">
-        {leadingIcon}
+        {loading ? <span className="forge-button__spinner" aria-hidden="true" /> : null}
+        {!loading && leadingIcon ? <span className="forge-button__icon" aria-hidden="true">{leadingIcon}</span> : null}
         {children}
-        {trailingIcon}
+        {trailingIcon ? <span className="forge-button__icon" aria-hidden="true">{trailingIcon}</span> : null}
       </span>
-      {loading ? <span className="forge-button__spinner" aria-hidden="true" /> : null}
     </button>
   );
 });

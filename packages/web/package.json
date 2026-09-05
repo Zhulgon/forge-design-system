@@ -4,7 +4,7 @@
   "type": "module",
   "dependencies": { "@forge/contracts": "workspace:*", "@forge/tokens": "workspace:*" },
   "exports": {
-    ".": { "types": "./src/index.ts", "import": "./dist/index.js" },
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
     "./button.css": "./src/button.css"
   },
   "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc -p tsconfig.json --noEmit" }
