@@ -1,0 +1,23 @@
+@import '@forge/tokens/css';
+
+.forge-icon-button { --fg-icon-button-background: var(--fg-semantic-action-primary-default); --fg-icon-button-foreground: var(--fg-semantic-action-primary-text); --fg-icon-button-disabled: var(--fg-semantic-action-primary-disabled); --fg-icon-button-border: var(--fg-layout-space-0); align-items: center; appearance: none; background: var(--fg-icon-button-background); border: var(--fg-icon-button-border) solid var(--fg-semantic-border-default); border-radius: var(--fg-layout-radius-md); box-sizing: border-box; color: var(--fg-icon-button-foreground); cursor: pointer; display: inline-flex; justify-content: center; transition: background-color var(--fg-motion-duration-fast) var(--fg-motion-easing-standard); }
+.forge-icon-button[data-variant='secondary'] { --fg-icon-button-background: var(--fg-semantic-action-secondary-default); --fg-icon-button-foreground: var(--fg-semantic-action-secondary-text); --fg-icon-button-disabled: var(--fg-semantic-action-secondary-disabled); --fg-icon-button-border: var(--fg-layout-border-width-hairline); }
+.forge-icon-button[data-variant='ghost'] { --fg-icon-button-background: var(--fg-semantic-action-ghost-default); --fg-icon-button-foreground: var(--fg-semantic-action-ghost-text); --fg-icon-button-disabled: var(--fg-semantic-action-ghost-default); }
+.forge-icon-button[data-variant='destructive'] { --fg-icon-button-background: var(--fg-semantic-action-destructive-default); --fg-icon-button-foreground: var(--fg-semantic-action-destructive-text); --fg-icon-button-disabled: var(--fg-semantic-action-destructive-disabled); }
+.forge-icon-button[data-size='sm'] { block-size: var(--fg-density-control-height-sm); inline-size: var(--fg-density-control-height-sm); }
+.forge-icon-button[data-size='md'] { block-size: var(--fg-density-control-height-md); inline-size: var(--fg-density-control-height-md); }
+.forge-icon-button[data-size='lg'] { block-size: var(--fg-density-control-height-lg); inline-size: var(--fg-density-control-height-lg); }
+.forge-icon-button:hover:not(:disabled):not([data-loading='true']) { background: var(--fg-semantic-action-primary-hover); }
+.forge-icon-button[data-variant='secondary']:hover:not(:disabled):not([data-loading='true']) { background: var(--fg-semantic-action-secondary-hover); }
+.forge-icon-button[data-variant='ghost']:hover:not(:disabled):not([data-loading='true']) { background: var(--fg-semantic-action-ghost-hover); }
+.forge-icon-button[data-variant='destructive']:hover:not(:disabled):not([data-loading='true']) { background: var(--fg-semantic-action-destructive-hover); }
+.forge-icon-button:focus-visible { box-shadow: inset 0 0 0 var(--fg-layout-border-width-medium) var(--fg-semantic-border-focus); }
+.forge-icon-button:disabled:not([data-loading='true']) { background: var(--fg-icon-button-disabled); color: var(--fg-semantic-text-disabled); cursor: not-allowed; }
+.forge-icon-button[data-loading='true'] { cursor: progress; }
+.forge-icon-button__icon, .forge-icon-button__spinner { block-size: var(--fg-layout-size-icon-20); inline-size: var(--fg-layout-size-icon-20); }
+.forge-icon-button[data-size='sm'] .forge-icon-button__icon { block-size: var(--fg-layout-size-icon-16); inline-size: var(--fg-layout-size-icon-16); }
+.forge-icon-button[data-size='lg'] .forge-icon-button__icon { block-size: var(--fg-layout-size-icon-24); inline-size: var(--fg-layout-size-icon-24); }
+.forge-icon-button__icon { align-items: center; display: inline-flex; justify-content: center; }
+.forge-icon-button__icon > svg { block-size: 100%; inline-size: 100%; }
+.forge-icon-button__spinner { animation: forge-icon-button-spin var(--fg-motion-duration-normal) linear infinite; border: var(--fg-layout-border-width-medium) solid currentColor; border-inline-end-color: transparent; border-radius: var(--fg-layout-radius-full); box-sizing: border-box; }
+@keyframes forge-icon-button-spin { to { transform: rotate(1turn); } }

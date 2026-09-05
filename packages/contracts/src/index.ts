@@ -35,3 +35,23 @@ export interface ForgeButtonOptions extends ForgeAsyncState {
   variant?: ForgeButtonVariant;
   size?: ForgeButtonSize;
 }
+
+export type ForgeIconButtonVariant = ForgeButtonVariant;
+export type ForgeIconButtonSize = ForgeButtonSize;
+export interface ForgeIconButtonOptions extends ForgeAsyncState {
+  variant?: ForgeIconButtonVariant;
+  size?: ForgeIconButtonSize;
+}
+
+export type ForgeLinkVariant = 'default' | 'subtle';
+export type ForgeLinkSize = ForgeButtonSize;
+export interface ForgeLinkOptions {
+  variant?: ForgeLinkVariant;
+  size?: ForgeLinkSize;
+}
+
+export type ForgeSplitButtonVariant = Exclude<ForgeButtonVariant, 'ghost'>;
+export interface ForgeSplitButtonOptions extends ForgeAsyncState {
+  variant?: ForgeSplitButtonVariant;
+  size?: ForgeButtonSize;
+}

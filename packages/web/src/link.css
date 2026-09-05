@@ -1,0 +1,11 @@
+@import '@forge/tokens/css';
+
+.forge-link { align-items: center; color: var(--fg-semantic-text-link); display: inline-flex; font-family: var(--fg-type-family-sans); font-weight: var(--fg-type-weight-medium); gap: var(--fg-density-control-gap); line-height: var(--fg-type-line-20); text-decoration: underline; text-decoration-thickness: var(--fg-layout-border-width-hairline); text-underline-offset: var(--fg-layout-space-2); }
+.forge-link[data-size='sm'] { font-size: var(--fg-type-size-12); }
+.forge-link[data-size='md'] { font-size: var(--fg-type-size-14); }
+.forge-link[data-size='lg'] { font-size: var(--fg-type-size-16); }
+.forge-link[data-variant='subtle'] { color: var(--fg-semantic-text-secondary); }
+.forge-link:hover { color: var(--fg-semantic-text-brand); }
+.forge-link:focus-visible { border-radius: var(--fg-layout-radius-xs); box-shadow: inset 0 0 0 var(--fg-layout-border-width-medium) var(--fg-semantic-border-focus); outline: none; }
+.forge-link__icon { align-items: center; display: inline-flex; block-size: var(--fg-layout-size-icon-16); inline-size: var(--fg-layout-size-icon-16); }
+.forge-link__icon > svg { block-size: 100%; inline-size: 100%; }

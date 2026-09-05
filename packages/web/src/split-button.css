@@ -1,0 +1,9 @@
+@import './button.css';
+
+.forge-split-button { display: inline-flex; }
+.forge-split-button > .forge-button:first-child { border-end-end-radius: var(--fg-layout-radius-none); border-start-end-radius: var(--fg-layout-radius-none); }
+.forge-split-button > .forge-button:last-child { border-inline-start: var(--fg-layout-border-width-hairline) solid currentColor; border-end-start-radius: var(--fg-layout-radius-none); border-start-start-radius: var(--fg-layout-radius-none); min-inline-size: var(--fg-density-control-height-md); padding-inline: var(--fg-density-control-gap); }
+.forge-split-button > .forge-button:last-child:focus-visible { position: relative; }
+.forge-split-button[data-size='sm'] > .forge-button:last-child { min-inline-size: var(--fg-density-control-height-sm); }
+.forge-split-button[data-size='lg'] > .forge-button:last-child { min-inline-size: var(--fg-density-control-height-lg); }
+.forge-split-button__trigger-icon { block-size: var(--fg-layout-size-icon-16); inline-size: var(--fg-layout-size-icon-16); }
