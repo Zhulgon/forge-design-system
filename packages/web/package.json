@@ -1,1 +1,11 @@
-{"name":"@forge/web","version":"0.0.0","type":"module","dependencies":{"@forge/contracts":"workspace:*","@forge/tokens":"workspace:*"},"exports":{".":"./src/index.ts"}}
+{
+  "name": "@forge/web",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": { "@forge/contracts": "workspace:*", "@forge/tokens": "workspace:*" },
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./button.css": "./src/button.css"
+  },
+  "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc -p tsconfig.json --noEmit" }
+}
