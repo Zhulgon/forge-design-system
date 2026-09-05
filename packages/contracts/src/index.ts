@@ -10,5 +10,28 @@ export interface ForgeRootModes {
   motion: ForgeMotion;
 }
 
-export type InteractionState = 'default' | 'hover' | 'pressed' | 'focus' | 'disabled' | 'loading';
-export type ValidationState = 'default' | 'error' | 'success';
+/** States shared by interactive FORGE components. */
+export type ForgeInteractionState =
+  | 'default'
+  | 'hover'
+  | 'pressed'
+  | 'focus-visible'
+  | 'disabled'
+  | 'loading';
+
+/** Framework-neutral flags for components that can be unavailable or busy. */
+export interface ForgeAsyncState {
+  disabled?: boolean;
+  loading?: boolean;
+}
+
+export type ForgeValidationState = 'default' | 'error' | 'success';
+
+export type ForgeButtonVariant = 'primary' | 'secondary' | 'ghost' | 'destructive';
+export type ForgeButtonSize = 'sm' | 'md' | 'lg';
+
+/** The framework-neutral behavioral portion of a Button API. */
+export interface ForgeButtonOptions extends ForgeAsyncState {
+  variant?: ForgeButtonVariant;
+  size?: ForgeButtonSize;
+}

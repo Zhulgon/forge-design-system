@@ -14,6 +14,10 @@ The canonical design source is **FORGE v1** in Figma. This repository is the imp
 - `@forge/docs` — Storybook/docs, fixtures, migration guidance.
 - `@forge/extensions-*` — domain libraries. Extensions may depend on Core; Core never depends on extensions.
 
+## Current vertical slice
+
+The first production component is [`Button`](docs/button.md). It demonstrates the intended path from Figma semantic tokens through framework-neutral contracts and web CSS to a thin React adapter.
+
 ## Non-negotiable rules
 
 1. Product code consumes semantic tokens, never primitive palette values directly.
