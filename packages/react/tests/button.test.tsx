@@ -41,7 +41,9 @@ describe('Button', () => {
     expect(button).toBeDisabled();
     expect(button).toHaveAttribute('aria-busy', 'true');
     expect(button).toHaveAttribute('data-loading', 'true');
-    expect(button.querySelector('[aria-hidden="true"]')).toBeInTheDocument();
+    const content = button.querySelector('.forge-button__content');
+    expect(content?.firstElementChild).toHaveClass('forge-button__spinner');
+    expect(content?.firstElementChild).toHaveAttribute('aria-hidden', 'true');
     await user.click(button);
     expect(onClick).not.toHaveBeenCalled();
   });
@@ -59,6 +61,35 @@ describe('Button', () => {
     render(<Button leadingIcon={<span>Start</span>} trailingIcon={<span>End</span>}>Save</Button>);
     expect(screen.getByText('Start')).toBeInTheDocument();
     expect(screen.getByText('End')).toBeInTheDocument();
+  });
+
+  it('keeps loading visually mapped to normal variant semantics', () => {
+    render(<Button variant="destructive" size="lg" loading>Delete</Button>);
+    const button = screen.getByRole('button', { name: 'Delete' });
+    expect(button).toHaveAttribute('data-variant', 'destructive');
+    expect(button).toHaveAttribute('data-size', 'lg');
+    expect(button).toHaveAttribute('data-loading', 'true');
+    expect(button.querySelector('.forge-button__spinner')).toBeInTheDocument();
+  });
+
+  it('keeps disabled and loading states structurally distinct', () => {
+    const { rerender } = render(<Button disabled>Save</Button>);
+    const button = screen.getByRole('button', { name: 'Save' });
+    expect(button).not.toHaveAttribute('data-loading');
+    expect(button).not.toHaveAttribute('aria-busy');
+    expect(button.querySelector('.forge-button__spinner')).not.toBeInTheDocument();
+
+    rerender(<Button loading>Save</Button>);
+    expect(button).toHaveAttribute('data-loading', 'true');
+    expect(button).toHaveAttribute('aria-busy', 'true');
+    expect(button.querySelector('.forge-button__spinner')).toBeInTheDocument();
+  });
+
+  it('allows submit behavior to override the safe default and preserves custom classes', () => {
+    render(<Button type="submit" className="save-button">Save</Button>);
+    const button = screen.getByRole('button', { name: 'Save' });
+    expect(button).toHaveAttribute('type', 'submit');
+    expect(button).toHaveClass('forge-button', 'save-button');
   });
 
   it('responds to keyboard activation like a native button', async () => {

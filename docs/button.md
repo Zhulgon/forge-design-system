@@ -27,7 +27,7 @@ export function SaveDraft() {
 |---|---|---|---|
 | `variant` | `primary`, `secondary`, `ghost`, `destructive` | `primary` | Use `destructive` exactly; `danger` is not a FORGE variant. |
 | `size` | `sm`, `md`, `lg` | `md` | Values resolve through the root density mode. |
-| `loading` | boolean | `false` | Disables interaction, preserves dimensions, and exposes a visible spinner/status. |
+| `loading` | boolean | `false` | Disables interaction, preserves dimensions, keeps the label visible, and adds a visible spinner. |
 | `disabled` | boolean | `false` | Uses native disabled button behavior. |
 | `leadingIcon` / `trailingIcon` | React node | — | Composition points for icons or concise supporting content. |
 
