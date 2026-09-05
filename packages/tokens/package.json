@@ -1,1 +1,28 @@
-{"name":"@forge/tokens","version":"0.0.0","type":"module","exports":{".":"./src/index.ts"}}
+{
+  "name": "@forge/tokens",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "generated/css",
+    "generated/json",
+    "README.md"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "check:generated": "node scripts/generate.mjs --check",
+    "build": "node scripts/generate.mjs && tsc -p tsconfig.json",
+    "typecheck": "node scripts/generate.mjs --check && tsc -p tsconfig.json --noEmit"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./css": "./generated/css/forge.css",
+    "./json": "./generated/json/forge.tokens.json",
+    "./code-syntax": "./generated/json/code-syntax.json"
+  }
+}

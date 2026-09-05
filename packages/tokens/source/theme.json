@@ -1,0 +1,212 @@
+{
+  "collection": "FG / Theme",
+  "modes": [
+    "Neutral",
+    "Clinical",
+    "Cyber",
+    "Organic",
+    "Premium"
+  ],
+  "tokens": {
+    "accent/50": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/50}",
+      "Clinical": "{FG / Primitive Color::green/50}",
+      "Cyber": "{FG / Primitive Color::purple/50}",
+      "Organic": "{FG / Primitive Color::amber/50}",
+      "Premium": "{FG / Primitive Color::pink/50}"
+    },
+    "accent/100": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/100}",
+      "Clinical": "{FG / Primitive Color::green/100}",
+      "Cyber": "{FG / Primitive Color::purple/100}",
+      "Organic": "{FG / Primitive Color::amber/100}",
+      "Premium": "{FG / Primitive Color::pink/100}"
+    },
+    "accent/200": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/200}",
+      "Clinical": "{FG / Primitive Color::green/200}",
+      "Cyber": "{FG / Primitive Color::purple/200}",
+      "Organic": "{FG / Primitive Color::amber/200}",
+      "Premium": "{FG / Primitive Color::pink/200}"
+    },
+    "accent/300": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/300}",
+      "Clinical": "{FG / Primitive Color::green/300}",
+      "Cyber": "{FG / Primitive Color::purple/300}",
+      "Organic": "{FG / Primitive Color::amber/300}",
+      "Premium": "{FG / Primitive Color::pink/300}"
+    },
+    "accent/400": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/400}",
+      "Clinical": "{FG / Primitive Color::green/400}",
+      "Cyber": "{FG / Primitive Color::purple/400}",
+      "Organic": "{FG / Primitive Color::amber/400}",
+      "Premium": "{FG / Primitive Color::pink/400}"
+    },
+    "accent/500": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/500}",
+      "Clinical": "{FG / Primitive Color::green/500}",
+      "Cyber": "{FG / Primitive Color::purple/500}",
+      "Organic": "{FG / Primitive Color::amber/500}",
+      "Premium": "{FG / Primitive Color::pink/500}"
+    },
+    "accent/600": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/600}",
+      "Clinical": "{FG / Primitive Color::green/600}",
+      "Cyber": "{FG / Primitive Color::purple/600}",
+      "Organic": "{FG / Primitive Color::amber/600}",
+      "Premium": "{FG / Primitive Color::pink/600}"
+    },
+    "accent/700": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/700}",
+      "Clinical": "{FG / Primitive Color::green/700}",
+      "Cyber": "{FG / Primitive Color::purple/700}",
+      "Organic": "{FG / Primitive Color::amber/700}",
+      "Premium": "{FG / Primitive Color::pink/700}"
+    },
+    "accent/800": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/800}",
+      "Clinical": "{FG / Primitive Color::green/800}",
+      "Cyber": "{FG / Primitive Color::purple/800}",
+      "Organic": "{FG / Primitive Color::amber/800}",
+      "Premium": "{FG / Primitive Color::pink/800}"
+    },
+    "accent/900": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/900}",
+      "Clinical": "{FG / Primitive Color::green/900}",
+      "Cyber": "{FG / Primitive Color::purple/900}",
+      "Organic": "{FG / Primitive Color::amber/900}",
+      "Premium": "{FG / Primitive Color::pink/900}"
+    },
+    "accent/950": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/950}",
+      "Clinical": "{FG / Primitive Color::green/950}",
+      "Cyber": "{FG / Primitive Color::purple/950}",
+      "Organic": "{FG / Primitive Color::amber/950}",
+      "Premium": "{FG / Primitive Color::pink/950}"
+    },
+    "brand/50": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/50}",
+      "Clinical": "{FG / Primitive Color::blue/50}",
+      "Cyber": "{FG / Primitive Color::cyan/50}",
+      "Organic": "{FG / Primitive Color::green/50}",
+      "Premium": "{FG / Primitive Color::purple/50}"
+    },
+    "brand/100": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/100}",
+      "Clinical": "{FG / Primitive Color::blue/100}",
+      "Cyber": "{FG / Primitive Color::cyan/100}",
+      "Organic": "{FG / Primitive Color::green/100}",
+      "Premium": "{FG / Primitive Color::purple/100}"
+    },
+    "brand/200": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/200}",
+      "Clinical": "{FG / Primitive Color::blue/200}",
+      "Cyber": "{FG / Primitive Color::cyan/200}",
+      "Organic": "{FG / Primitive Color::green/200}",
+      "Premium": "{FG / Primitive Color::purple/200}"
+    },
+    "brand/300": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/300}",
+      "Clinical": "{FG / Primitive Color::blue/300}",
+      "Cyber": "{FG / Primitive Color::cyan/300}",
+      "Organic": "{FG / Primitive Color::green/300}",
+      "Premium": "{FG / Primitive Color::purple/300}"
+    },
+    "brand/400": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/400}",
+      "Clinical": "{FG / Primitive Color::blue/400}",
+      "Cyber": "{FG / Primitive Color::cyan/400}",
+      "Organic": "{FG / Primitive Color::green/400}",
+      "Premium": "{FG / Primitive Color::purple/400}"
+    },
+    "brand/500": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/500}",
+      "Clinical": "{FG / Primitive Color::blue/500}",
+      "Cyber": "{FG / Primitive Color::cyan/500}",
+      "Organic": "{FG / Primitive Color::green/500}",
+      "Premium": "{FG / Primitive Color::purple/500}"
+    },
+    "brand/600": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/600}",
+      "Clinical": "{FG / Primitive Color::blue/600}",
+      "Cyber": "{FG / Primitive Color::cyan/600}",
+      "Organic": "{FG / Primitive Color::green/600}",
+      "Premium": "{FG / Primitive Color::purple/600}"
+    },
+    "brand/700": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/700}",
+      "Clinical": "{FG / Primitive Color::blue/700}",
+      "Cyber": "{FG / Primitive Color::cyan/700}",
+      "Organic": "{FG / Primitive Color::green/700}",
+      "Premium": "{FG / Primitive Color::purple/700}"
+    },
+    "brand/800": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/800}",
+      "Clinical": "{FG / Primitive Color::blue/800}",
+      "Cyber": "{FG / Primitive Color::cyan/800}",
+      "Organic": "{FG / Primitive Color::green/800}",
+      "Premium": "{FG / Primitive Color::purple/800}"
+    },
+    "brand/900": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/900}",
+      "Clinical": "{FG / Primitive Color::blue/900}",
+      "Cyber": "{FG / Primitive Color::cyan/900}",
+      "Organic": "{FG / Primitive Color::green/900}",
+      "Premium": "{FG / Primitive Color::purple/900}"
+    },
+    "brand/950": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/950}",
+      "Clinical": "{FG / Primitive Color::blue/950}",
+      "Cyber": "{FG / Primitive Color::cyan/950}",
+      "Organic": "{FG / Primitive Color::green/950}",
+      "Premium": "{FG / Primitive Color::purple/950}"
+    },
+    "focus": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/600}",
+      "Clinical": "{FG / Primitive Color::blue/600}",
+      "Cyber": "{FG / Primitive Color::cyan/600}",
+      "Organic": "{FG / Primitive Color::green/600}",
+      "Premium": "{FG / Primitive Color::purple/600}"
+    },
+    "highlight": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::blue/100}",
+      "Clinical": "{FG / Primitive Color::blue/100}",
+      "Cyber": "{FG / Primitive Color::cyan/100}",
+      "Organic": "{FG / Primitive Color::green/100}",
+      "Premium": "{FG / Primitive Color::purple/100}"
+    },
+    "selection": {
+      "type": "COLOR",
+      "Neutral": "{FG / Primitive Color::cyan/200}",
+      "Clinical": "{FG / Primitive Color::green/200}",
+      "Cyber": "{FG / Primitive Color::purple/200}",
+      "Organic": "{FG / Primitive Color::amber/200}",
+      "Premium": "{FG / Primitive Color::pink/200}"
+    }
+  }
+}

@@ -1,16 +1,16 @@
-export const forgeTokenCollections = [
-  'FG / Primitive Color',
-  'FG / Theme',
-  'FG / Semantic Color',
-  'FG / Density',
-  'FG / Layout',
-  'FG / Typography',
-  'FG / Motion'
-] as const;
+export {
+  forgeTokenSource,
+  forgeCodeSyntax,
+  forgeThemes,
+  forgeColorModes,
+  forgeDensities,
+  forgeMotions,
+  forgeRootAttributes,
+} from './generated.js';
 
-export const forgeRootAttributes = {
-  theme: 'data-forge-theme',
-  colorMode: 'data-forge-color-mode',
-  density: 'data-forge-density',
-  motion: 'data-forge-motion'
-} as const;
+export type {
+  ForgeTheme,
+  ForgeColorMode,
+  ForgeDensity,
+  ForgeMotion,
+} from './generated.js';

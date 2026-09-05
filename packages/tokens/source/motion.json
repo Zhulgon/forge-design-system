@@ -1,0 +1,44 @@
+{
+  "collection": "FG / Motion",
+  "modes": [
+    "Standard",
+    "Reduced"
+  ],
+  "tokens": {
+    "duration/fast": {
+      "type": "FLOAT",
+      "Standard": 120,
+      "Reduced": 0
+    },
+    "duration/normal": {
+      "type": "FLOAT",
+      "Standard": 200,
+      "Reduced": 0
+    },
+    "duration/slow": {
+      "type": "FLOAT",
+      "Standard": 320,
+      "Reduced": 0
+    },
+    "duration/slower": {
+      "type": "FLOAT",
+      "Standard": 480,
+      "Reduced": 0
+    },
+    "easing/enter": {
+      "type": "STRING",
+      "Standard": "cubic-bezier(0, 0, 0.2, 1)",
+      "Reduced": "linear"
+    },
+    "easing/exit": {
+      "type": "STRING",
+      "Standard": "cubic-bezier(0.4, 0, 1, 1)",
+      "Reduced": "linear"
+    },
+    "easing/standard": {
+      "type": "STRING",
+      "Standard": "cubic-bezier(0.2, 0, 0, 1)",
+      "Reduced": "linear"
+    }
+  }
+}

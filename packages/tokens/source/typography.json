@@ -1,0 +1,124 @@
+{
+  "collection": "FG / Typography",
+  "modes": [
+    "Value"
+  ],
+  "tokens": {
+    "family/mono": {
+      "type": "STRING",
+      "Value": "IBM Plex Mono"
+    },
+    "family/sans": {
+      "type": "STRING",
+      "Value": "Inter"
+    },
+    "line/16": {
+      "type": "FLOAT",
+      "Value": 16
+    },
+    "line/20": {
+      "type": "FLOAT",
+      "Value": 20
+    },
+    "line/24": {
+      "type": "FLOAT",
+      "Value": 24
+    },
+    "line/28": {
+      "type": "FLOAT",
+      "Value": 28
+    },
+    "line/32": {
+      "type": "FLOAT",
+      "Value": 32
+    },
+    "line/38": {
+      "type": "FLOAT",
+      "Value": 38
+    },
+    "line/44": {
+      "type": "FLOAT",
+      "Value": 44
+    },
+    "line/48": {
+      "type": "FLOAT",
+      "Value": 48
+    },
+    "line/56": {
+      "type": "FLOAT",
+      "Value": 56
+    },
+    "size/12": {
+      "type": "FLOAT",
+      "Value": 12
+    },
+    "size/14": {
+      "type": "FLOAT",
+      "Value": 14
+    },
+    "size/16": {
+      "type": "FLOAT",
+      "Value": 16
+    },
+    "size/18": {
+      "type": "FLOAT",
+      "Value": 18
+    },
+    "size/20": {
+      "type": "FLOAT",
+      "Value": 20
+    },
+    "size/24": {
+      "type": "FLOAT",
+      "Value": 24
+    },
+    "size/30": {
+      "type": "FLOAT",
+      "Value": 30
+    },
+    "size/36": {
+      "type": "FLOAT",
+      "Value": 36
+    },
+    "size/40": {
+      "type": "FLOAT",
+      "Value": 40
+    },
+    "size/48": {
+      "type": "FLOAT",
+      "Value": 48
+    },
+    "tracking/normal": {
+      "type": "FLOAT",
+      "Value": 0
+    },
+    "tracking/tight-1": {
+      "type": "FLOAT",
+      "Value": -0.4
+    },
+    "tracking/tight-2": {
+      "type": "FLOAT",
+      "Value": -0.8
+    },
+    "tracking/wide-1": {
+      "type": "FLOAT",
+      "Value": 0.1
+    },
+    "weight/bold": {
+      "type": "FLOAT",
+      "Value": 700
+    },
+    "weight/medium": {
+      "type": "FLOAT",
+      "Value": 500
+    },
+    "weight/regular": {
+      "type": "FLOAT",
+      "Value": 400
+    },
+    "weight/semibold": {
+      "type": "FLOAT",
+      "Value": 600
+    }
+  }
+}

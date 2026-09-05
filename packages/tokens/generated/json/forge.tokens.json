@@ -1,0 +1,1670 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "system": "FORGE v1",
+    "figmaFileKey": "fsCvPcjtvgfHQsw4DnLw7H",
+    "variableCount": 307
+  },
+  "defaultModes": {
+    "theme": "Neutral",
+    "colorMode": "Light",
+    "density": "Comfortable",
+    "motion": "Standard"
+  },
+  "collections": [
+    {
+      "collection": "FG / Primitive Color",
+      "modes": [
+        "Value"
+      ],
+      "tokens": {
+        "neutral/0": {
+          "type": "COLOR",
+          "Value": "#FFFFFF"
+        },
+        "neutral/50": {
+          "type": "COLOR",
+          "Value": "#F8FAFC"
+        },
+        "neutral/100": {
+          "type": "COLOR",
+          "Value": "#F1F5F9"
+        },
+        "neutral/200": {
+          "type": "COLOR",
+          "Value": "#E2E8F0"
+        },
+        "neutral/300": {
+          "type": "COLOR",
+          "Value": "#CBD5E1"
+        },
+        "neutral/400": {
+          "type": "COLOR",
+          "Value": "#94A3B8"
+        },
+        "neutral/500": {
+          "type": "COLOR",
+          "Value": "#64748B"
+        },
+        "neutral/600": {
+          "type": "COLOR",
+          "Value": "#475569"
+        },
+        "neutral/700": {
+          "type": "COLOR",
+          "Value": "#334155"
+        },
+        "neutral/800": {
+          "type": "COLOR",
+          "Value": "#1E293B"
+        },
+        "neutral/900": {
+          "type": "COLOR",
+          "Value": "#0F172A"
+        },
+        "neutral/950": {
+          "type": "COLOR",
+          "Value": "#020617"
+        },
+        "neutral/1000": {
+          "type": "COLOR",
+          "Value": "#000000"
+        },
+        "blue/50": {
+          "type": "COLOR",
+          "Value": "#EFF6FF"
+        },
+        "blue/100": {
+          "type": "COLOR",
+          "Value": "#DBEAFE"
+        },
+        "blue/200": {
+          "type": "COLOR",
+          "Value": "#BFDBFE"
+        },
+        "blue/300": {
+          "type": "COLOR",
+          "Value": "#93C5FD"
+        },
+        "blue/400": {
+          "type": "COLOR",
+          "Value": "#60A5FA"
+        },
+        "blue/500": {
+          "type": "COLOR",
+          "Value": "#3B82F6"
+        },
+        "blue/600": {
+          "type": "COLOR",
+          "Value": "#2563EB"
+        },
+        "blue/700": {
+          "type": "COLOR",
+          "Value": "#1D4ED8"
+        },
+        "blue/800": {
+          "type": "COLOR",
+          "Value": "#1E40AF"
+        },
+        "blue/900": {
+          "type": "COLOR",
+          "Value": "#1E3A8A"
+        },
+        "blue/950": {
+          "type": "COLOR",
+          "Value": "#172554"
+        },
+        "cyan/50": {
+          "type": "COLOR",
+          "Value": "#ECFEFF"
+        },
+        "cyan/100": {
+          "type": "COLOR",
+          "Value": "#CFFAFE"
+        },
+        "cyan/200": {
+          "type": "COLOR",
+          "Value": "#A5F3FC"
+        },
+        "cyan/300": {
+          "type": "COLOR",
+          "Value": "#67E8F9"
+        },
+        "cyan/400": {
+          "type": "COLOR",
+          "Value": "#22D3EE"
+        },
+        "cyan/500": {
+          "type": "COLOR",
+          "Value": "#06B6D4"
+        },
+        "cyan/600": {
+          "type": "COLOR",
+          "Value": "#0891B2"
+        },
+        "cyan/700": {
+          "type": "COLOR",
+          "Value": "#0E7490"
+        },
+        "cyan/800": {
+          "type": "COLOR",
+          "Value": "#155E75"
+        },
+        "cyan/900": {
+          "type": "COLOR",
+          "Value": "#164E63"
+        },
+        "cyan/950": {
+          "type": "COLOR",
+          "Value": "#083344"
+        },
+        "green/50": {
+          "type": "COLOR",
+          "Value": "#F0FDF4"
+        },
+        "green/100": {
+          "type": "COLOR",
+          "Value": "#DCFCE7"
+        },
+        "green/200": {
+          "type": "COLOR",
+          "Value": "#BBF7D0"
+        },
+        "green/300": {
+          "type": "COLOR",
+          "Value": "#86EFAC"
+        },
+        "green/400": {
+          "type": "COLOR",
+          "Value": "#4ADE80"
+        },
+        "green/500": {
+          "type": "COLOR",
+          "Value": "#22C55E"
+        },
+        "green/600": {
+          "type": "COLOR",
+          "Value": "#16A34A"
+        },
+        "green/700": {
+          "type": "COLOR",
+          "Value": "#15803D"
+        },
+        "green/800": {
+          "type": "COLOR",
+          "Value": "#166534"
+        },
+        "green/900": {
+          "type": "COLOR",
+          "Value": "#14532D"
+        },
+        "green/950": {
+          "type": "COLOR",
+          "Value": "#052E16"
+        },
+        "amber/50": {
+          "type": "COLOR",
+          "Value": "#FFFBEB"
+        },
+        "amber/100": {
+          "type": "COLOR",
+          "Value": "#FEF3C7"
+        },
+        "amber/200": {
+          "type": "COLOR",
+          "Value": "#FDE68A"
+        },
+        "amber/300": {
+          "type": "COLOR",
+          "Value": "#FCD34D"
+        },
+        "amber/400": {
+          "type": "COLOR",
+          "Value": "#FBBF24"
+        },
+        "amber/500": {
+          "type": "COLOR",
+          "Value": "#F59E0B"
+        },
+        "amber/600": {
+          "type": "COLOR",
+          "Value": "#D97706"
+        },
+        "amber/700": {
+          "type": "COLOR",
+          "Value": "#B45309"
+        },
+        "amber/800": {
+          "type": "COLOR",
+          "Value": "#92400E"
+        },
+        "amber/900": {
+          "type": "COLOR",
+          "Value": "#78350F"
+        },
+        "amber/950": {
+          "type": "COLOR",
+          "Value": "#451A03"
+        },
+        "red/50": {
+          "type": "COLOR",
+          "Value": "#FEF2F2"
+        },
+        "red/100": {
+          "type": "COLOR",
+          "Value": "#FEE2E2"
+        },
+        "red/200": {
+          "type": "COLOR",
+          "Value": "#FECACA"
+        },
+        "red/300": {
+          "type": "COLOR",
+          "Value": "#FCA5A5"
+        },
+        "red/400": {
+          "type": "COLOR",
+          "Value": "#F87171"
+        },
+        "red/500": {
+          "type": "COLOR",
+          "Value": "#EF4444"
+        },
+        "red/600": {
+          "type": "COLOR",
+          "Value": "#DC2626"
+        },
+        "red/700": {
+          "type": "COLOR",
+          "Value": "#B91C1C"
+        },
+        "red/800": {
+          "type": "COLOR",
+          "Value": "#991B1B"
+        },
+        "red/900": {
+          "type": "COLOR",
+          "Value": "#7F1D1D"
+        },
+        "red/950": {
+          "type": "COLOR",
+          "Value": "#450A0A"
+        },
+        "purple/50": {
+          "type": "COLOR",
+          "Value": "#FAF5FF"
+        },
+        "purple/100": {
+          "type": "COLOR",
+          "Value": "#F3E8FF"
+        },
+        "purple/200": {
+          "type": "COLOR",
+          "Value": "#E9D5FF"
+        },
+        "purple/300": {
+          "type": "COLOR",
+          "Value": "#D8B4FE"
+        },
+        "purple/400": {
+          "type": "COLOR",
+          "Value": "#C084FC"
+        },
+        "purple/500": {
+          "type": "COLOR",
+          "Value": "#A855F7"
+        },
+        "purple/600": {
+          "type": "COLOR",
+          "Value": "#9333EA"
+        },
+        "purple/700": {
+          "type": "COLOR",
+          "Value": "#7E22CE"
+        },
+        "purple/800": {
+          "type": "COLOR",
+          "Value": "#6B21A8"
+        },
+        "purple/900": {
+          "type": "COLOR",
+          "Value": "#581C87"
+        },
+        "purple/950": {
+          "type": "COLOR",
+          "Value": "#3B0764"
+        },
+        "pink/50": {
+          "type": "COLOR",
+          "Value": "#FDF2F8"
+        },
+        "pink/100": {
+          "type": "COLOR",
+          "Value": "#FCE7F3"
+        },
+        "pink/200": {
+          "type": "COLOR",
+          "Value": "#FBCFE8"
+        },
+        "pink/300": {
+          "type": "COLOR",
+          "Value": "#F9A8D4"
+        },
+        "pink/400": {
+          "type": "COLOR",
+          "Value": "#F472B6"
+        },
+        "pink/500": {
+          "type": "COLOR",
+          "Value": "#EC4899"
+        },
+        "pink/600": {
+          "type": "COLOR",
+          "Value": "#DB2777"
+        },
+        "pink/700": {
+          "type": "COLOR",
+          "Value": "#BE185D"
+        },
+        "pink/800": {
+          "type": "COLOR",
+          "Value": "#9D174D"
+        },
+        "pink/900": {
+          "type": "COLOR",
+          "Value": "#831843"
+        },
+        "pink/950": {
+          "type": "COLOR",
+          "Value": "#500724"
+        },
+        "alpha/transparent": {
+          "type": "COLOR",
+          "Value": "#00000000"
+        },
+        "alpha/black-60": {
+          "type": "COLOR",
+          "Value": "#00000099"
+        },
+        "alpha/black-72": {
+          "type": "COLOR",
+          "Value": "#000000B8"
+        }
+      }
+    },
+    {
+      "collection": "FG / Theme",
+      "modes": [
+        "Neutral",
+        "Clinical",
+        "Cyber",
+        "Organic",
+        "Premium"
+      ],
+      "tokens": {
+        "accent/50": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/50}",
+          "Clinical": "{FG / Primitive Color::green/50}",
+          "Cyber": "{FG / Primitive Color::purple/50}",
+          "Organic": "{FG / Primitive Color::amber/50}",
+          "Premium": "{FG / Primitive Color::pink/50}"
+        },
+        "accent/100": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/100}",
+          "Clinical": "{FG / Primitive Color::green/100}",
+          "Cyber": "{FG / Primitive Color::purple/100}",
+          "Organic": "{FG / Primitive Color::amber/100}",
+          "Premium": "{FG / Primitive Color::pink/100}"
+        },
+        "accent/200": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/200}",
+          "Clinical": "{FG / Primitive Color::green/200}",
+          "Cyber": "{FG / Primitive Color::purple/200}",
+          "Organic": "{FG / Primitive Color::amber/200}",
+          "Premium": "{FG / Primitive Color::pink/200}"
+        },
+        "accent/300": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/300}",
+          "Clinical": "{FG / Primitive Color::green/300}",
+          "Cyber": "{FG / Primitive Color::purple/300}",
+          "Organic": "{FG / Primitive Color::amber/300}",
+          "Premium": "{FG / Primitive Color::pink/300}"
+        },
+        "accent/400": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/400}",
+          "Clinical": "{FG / Primitive Color::green/400}",
+          "Cyber": "{FG / Primitive Color::purple/400}",
+          "Organic": "{FG / Primitive Color::amber/400}",
+          "Premium": "{FG / Primitive Color::pink/400}"
+        },
+        "accent/500": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/500}",
+          "Clinical": "{FG / Primitive Color::green/500}",
+          "Cyber": "{FG / Primitive Color::purple/500}",
+          "Organic": "{FG / Primitive Color::amber/500}",
+          "Premium": "{FG / Primitive Color::pink/500}"
+        },
+        "accent/600": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/600}",
+          "Clinical": "{FG / Primitive Color::green/600}",
+          "Cyber": "{FG / Primitive Color::purple/600}",
+          "Organic": "{FG / Primitive Color::amber/600}",
+          "Premium": "{FG / Primitive Color::pink/600}"
+        },
+        "accent/700": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/700}",
+          "Clinical": "{FG / Primitive Color::green/700}",
+          "Cyber": "{FG / Primitive Color::purple/700}",
+          "Organic": "{FG / Primitive Color::amber/700}",
+          "Premium": "{FG / Primitive Color::pink/700}"
+        },
+        "accent/800": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/800}",
+          "Clinical": "{FG / Primitive Color::green/800}",
+          "Cyber": "{FG / Primitive Color::purple/800}",
+          "Organic": "{FG / Primitive Color::amber/800}",
+          "Premium": "{FG / Primitive Color::pink/800}"
+        },
+        "accent/900": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/900}",
+          "Clinical": "{FG / Primitive Color::green/900}",
+          "Cyber": "{FG / Primitive Color::purple/900}",
+          "Organic": "{FG / Primitive Color::amber/900}",
+          "Premium": "{FG / Primitive Color::pink/900}"
+        },
+        "accent/950": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/950}",
+          "Clinical": "{FG / Primitive Color::green/950}",
+          "Cyber": "{FG / Primitive Color::purple/950}",
+          "Organic": "{FG / Primitive Color::amber/950}",
+          "Premium": "{FG / Primitive Color::pink/950}"
+        },
+        "brand/50": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/50}",
+          "Clinical": "{FG / Primitive Color::blue/50}",
+          "Cyber": "{FG / Primitive Color::cyan/50}",
+          "Organic": "{FG / Primitive Color::green/50}",
+          "Premium": "{FG / Primitive Color::purple/50}"
+        },
+        "brand/100": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/100}",
+          "Clinical": "{FG / Primitive Color::blue/100}",
+          "Cyber": "{FG / Primitive Color::cyan/100}",
+          "Organic": "{FG / Primitive Color::green/100}",
+          "Premium": "{FG / Primitive Color::purple/100}"
+        },
+        "brand/200": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/200}",
+          "Clinical": "{FG / Primitive Color::blue/200}",
+          "Cyber": "{FG / Primitive Color::cyan/200}",
+          "Organic": "{FG / Primitive Color::green/200}",
+          "Premium": "{FG / Primitive Color::purple/200}"
+        },
+        "brand/300": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/300}",
+          "Clinical": "{FG / Primitive Color::blue/300}",
+          "Cyber": "{FG / Primitive Color::cyan/300}",
+          "Organic": "{FG / Primitive Color::green/300}",
+          "Premium": "{FG / Primitive Color::purple/300}"
+        },
+        "brand/400": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/400}",
+          "Clinical": "{FG / Primitive Color::blue/400}",
+          "Cyber": "{FG / Primitive Color::cyan/400}",
+          "Organic": "{FG / Primitive Color::green/400}",
+          "Premium": "{FG / Primitive Color::purple/400}"
+        },
+        "brand/500": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/500}",
+          "Clinical": "{FG / Primitive Color::blue/500}",
+          "Cyber": "{FG / Primitive Color::cyan/500}",
+          "Organic": "{FG / Primitive Color::green/500}",
+          "Premium": "{FG / Primitive Color::purple/500}"
+        },
+        "brand/600": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/600}",
+          "Clinical": "{FG / Primitive Color::blue/600}",
+          "Cyber": "{FG / Primitive Color::cyan/600}",
+          "Organic": "{FG / Primitive Color::green/600}",
+          "Premium": "{FG / Primitive Color::purple/600}"
+        },
+        "brand/700": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/700}",
+          "Clinical": "{FG / Primitive Color::blue/700}",
+          "Cyber": "{FG / Primitive Color::cyan/700}",
+          "Organic": "{FG / Primitive Color::green/700}",
+          "Premium": "{FG / Primitive Color::purple/700}"
+        },
+        "brand/800": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/800}",
+          "Clinical": "{FG / Primitive Color::blue/800}",
+          "Cyber": "{FG / Primitive Color::cyan/800}",
+          "Organic": "{FG / Primitive Color::green/800}",
+          "Premium": "{FG / Primitive Color::purple/800}"
+        },
+        "brand/900": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/900}",
+          "Clinical": "{FG / Primitive Color::blue/900}",
+          "Cyber": "{FG / Primitive Color::cyan/900}",
+          "Organic": "{FG / Primitive Color::green/900}",
+          "Premium": "{FG / Primitive Color::purple/900}"
+        },
+        "brand/950": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/950}",
+          "Clinical": "{FG / Primitive Color::blue/950}",
+          "Cyber": "{FG / Primitive Color::cyan/950}",
+          "Organic": "{FG / Primitive Color::green/950}",
+          "Premium": "{FG / Primitive Color::purple/950}"
+        },
+        "focus": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/600}",
+          "Clinical": "{FG / Primitive Color::blue/600}",
+          "Cyber": "{FG / Primitive Color::cyan/600}",
+          "Organic": "{FG / Primitive Color::green/600}",
+          "Premium": "{FG / Primitive Color::purple/600}"
+        },
+        "highlight": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::blue/100}",
+          "Clinical": "{FG / Primitive Color::blue/100}",
+          "Cyber": "{FG / Primitive Color::cyan/100}",
+          "Organic": "{FG / Primitive Color::green/100}",
+          "Premium": "{FG / Primitive Color::purple/100}"
+        },
+        "selection": {
+          "type": "COLOR",
+          "Neutral": "{FG / Primitive Color::cyan/200}",
+          "Clinical": "{FG / Primitive Color::green/200}",
+          "Cyber": "{FG / Primitive Color::purple/200}",
+          "Organic": "{FG / Primitive Color::amber/200}",
+          "Premium": "{FG / Primitive Color::pink/200}"
+        }
+      }
+    },
+    {
+      "collection": "FG / Semantic Color",
+      "modes": [
+        "Light",
+        "Dark",
+        "HC Light",
+        "HC Dark"
+      ],
+      "tokens": {
+        "action/destructive/default": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/600}",
+          "Dark": "{FG / Primitive Color::red/600}",
+          "HC Light": "{FG / Primitive Color::red/800}",
+          "HC Dark": "{FG / Primitive Color::red/300}"
+        },
+        "action/destructive/disabled": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/200}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/200}",
+          "HC Dark": "{FG / Primitive Color::neutral/800}"
+        },
+        "action/destructive/hover": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/700}",
+          "Dark": "{FG / Primitive Color::red/700}",
+          "HC Light": "{FG / Primitive Color::red/900}",
+          "HC Dark": "{FG / Primitive Color::red/200}"
+        },
+        "action/destructive/pressed": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/800}",
+          "Dark": "{FG / Primitive Color::red/800}",
+          "HC Light": "{FG / Primitive Color::red/950}",
+          "HC Dark": "{FG / Primitive Color::red/400}"
+        },
+        "action/destructive/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/0}",
+          "Dark": "{FG / Primitive Color::neutral/0}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "action/ghost/default": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::alpha/transparent}",
+          "Dark": "{FG / Primitive Color::alpha/transparent}",
+          "HC Light": "{FG / Primitive Color::alpha/transparent}",
+          "HC Dark": "{FG / Primitive Color::alpha/transparent}"
+        },
+        "action/ghost/hover": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/100}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/100}",
+          "HC Dark": "{FG / Primitive Color::neutral/900}"
+        },
+        "action/ghost/pressed": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/200}",
+          "Dark": "{FG / Primitive Color::neutral/700}",
+          "HC Light": "{FG / Primitive Color::neutral/200}",
+          "HC Dark": "{FG / Primitive Color::neutral/800}"
+        },
+        "action/ghost/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/800}",
+          "Dark": "{FG / Primitive Color::neutral/100}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "action/primary/default": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::brand/700}",
+          "Dark": "{FG / Theme::brand/400}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "action/primary/disabled": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/200}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/200}",
+          "HC Dark": "{FG / Primitive Color::neutral/800}"
+        },
+        "action/primary/hover": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::brand/800}",
+          "Dark": "{FG / Theme::brand/300}",
+          "HC Light": "{FG / Primitive Color::neutral/900}",
+          "HC Dark": "{FG / Primitive Color::neutral/100}"
+        },
+        "action/primary/pressed": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::brand/900}",
+          "Dark": "{FG / Theme::brand/500}",
+          "HC Light": "{FG / Primitive Color::neutral/800}",
+          "HC Dark": "{FG / Primitive Color::neutral/200}"
+        },
+        "action/primary/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/0}",
+          "Dark": "{FG / Primitive Color::neutral/1000}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "action/secondary/default": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/0}",
+          "Dark": "{FG / Primitive Color::neutral/900}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "action/secondary/disabled": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/100}",
+          "Dark": "{FG / Primitive Color::neutral/900}",
+          "HC Light": "{FG / Primitive Color::neutral/100}",
+          "HC Dark": "{FG / Primitive Color::neutral/900}"
+        },
+        "action/secondary/hover": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/100}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/100}",
+          "HC Dark": "{FG / Primitive Color::neutral/900}"
+        },
+        "action/secondary/pressed": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/200}",
+          "Dark": "{FG / Primitive Color::neutral/700}",
+          "HC Light": "{FG / Primitive Color::neutral/200}",
+          "HC Dark": "{FG / Primitive Color::neutral/800}"
+        },
+        "action/secondary/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/800}",
+          "Dark": "{FG / Primitive Color::neutral/100}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "border/default": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/300}",
+          "Dark": "{FG / Primitive Color::neutral/700}",
+          "HC Light": "{FG / Primitive Color::neutral/900}",
+          "HC Dark": "{FG / Primitive Color::neutral/100}"
+        },
+        "border/error": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/600}",
+          "Dark": "{FG / Primitive Color::red/400}",
+          "HC Light": "{FG / Primitive Color::red/800}",
+          "HC Dark": "{FG / Primitive Color::red/200}"
+        },
+        "border/focus": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::focus}",
+          "Dark": "{FG / Theme::focus}",
+          "HC Light": "{FG / Theme::focus}",
+          "HC Dark": "{FG / Theme::focus}"
+        },
+        "border/strong": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/500}",
+          "Dark": "{FG / Primitive Color::neutral/500}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "border/subtle": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/200}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/700}",
+          "HC Dark": "{FG / Primitive Color::neutral/300}"
+        },
+        "icon/brand": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::brand/700}",
+          "Dark": "{FG / Theme::brand/300}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "icon/disabled": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/400}",
+          "Dark": "{FG / Primitive Color::neutral/600}",
+          "HC Light": "{FG / Primitive Color::neutral/600}",
+          "HC Dark": "{FG / Primitive Color::neutral/400}"
+        },
+        "icon/inverse": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/0}",
+          "Dark": "{FG / Primitive Color::neutral/950}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "icon/primary": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/800}",
+          "Dark": "{FG / Primitive Color::neutral/100}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "icon/secondary": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/600}",
+          "Dark": "{FG / Primitive Color::neutral/300}",
+          "HC Light": "{FG / Primitive Color::neutral/900}",
+          "HC Dark": "{FG / Primitive Color::neutral/100}"
+        },
+        "icon/tertiary": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/500}",
+          "Dark": "{FG / Primitive Color::neutral/400}",
+          "HC Light": "{FG / Primitive Color::neutral/800}",
+          "HC Dark": "{FG / Primitive Color::neutral/200}"
+        },
+        "status/error/bg": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/50}",
+          "Dark": "{FG / Primitive Color::red/950}",
+          "HC Light": "{FG / Primitive Color::red/50}",
+          "HC Dark": "{FG / Primitive Color::red/950}"
+        },
+        "status/error/border": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/300}",
+          "Dark": "{FG / Primitive Color::red/700}",
+          "HC Light": "{FG / Primitive Color::red/900}",
+          "HC Dark": "{FG / Primitive Color::red/200}"
+        },
+        "status/error/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/800}",
+          "Dark": "{FG / Primitive Color::red/200}",
+          "HC Light": "{FG / Primitive Color::red/950}",
+          "HC Dark": "{FG / Primitive Color::red/100}"
+        },
+        "status/info/bg": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::blue/50}",
+          "Dark": "{FG / Primitive Color::blue/950}",
+          "HC Light": "{FG / Primitive Color::blue/50}",
+          "HC Dark": "{FG / Primitive Color::blue/950}"
+        },
+        "status/info/border": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::blue/300}",
+          "Dark": "{FG / Primitive Color::blue/700}",
+          "HC Light": "{FG / Primitive Color::blue/900}",
+          "HC Dark": "{FG / Primitive Color::blue/200}"
+        },
+        "status/info/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::blue/800}",
+          "Dark": "{FG / Primitive Color::blue/200}",
+          "HC Light": "{FG / Primitive Color::blue/950}",
+          "HC Dark": "{FG / Primitive Color::blue/100}"
+        },
+        "status/success/bg": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::green/50}",
+          "Dark": "{FG / Primitive Color::green/950}",
+          "HC Light": "{FG / Primitive Color::green/50}",
+          "HC Dark": "{FG / Primitive Color::green/950}"
+        },
+        "status/success/border": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::green/300}",
+          "Dark": "{FG / Primitive Color::green/700}",
+          "HC Light": "{FG / Primitive Color::green/900}",
+          "HC Dark": "{FG / Primitive Color::green/200}"
+        },
+        "status/success/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::green/800}",
+          "Dark": "{FG / Primitive Color::green/200}",
+          "HC Light": "{FG / Primitive Color::green/950}",
+          "HC Dark": "{FG / Primitive Color::green/100}"
+        },
+        "status/warning/bg": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::amber/50}",
+          "Dark": "{FG / Primitive Color::amber/950}",
+          "HC Light": "{FG / Primitive Color::amber/50}",
+          "HC Dark": "{FG / Primitive Color::amber/950}"
+        },
+        "status/warning/border": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::amber/300}",
+          "Dark": "{FG / Primitive Color::amber/700}",
+          "HC Light": "{FG / Primitive Color::amber/900}",
+          "HC Dark": "{FG / Primitive Color::amber/200}"
+        },
+        "status/warning/text": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::amber/800}",
+          "Dark": "{FG / Primitive Color::amber/200}",
+          "HC Light": "{FG / Primitive Color::amber/950}",
+          "HC Dark": "{FG / Primitive Color::amber/100}"
+        },
+        "surface/accent-subtle": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::accent/100}",
+          "Dark": "{FG / Theme::accent/950}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "surface/brand-subtle": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::brand/100}",
+          "Dark": "{FG / Theme::brand/950}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "surface/canvas": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/50}",
+          "Dark": "{FG / Primitive Color::neutral/950}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "surface/default": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/0}",
+          "Dark": "{FG / Primitive Color::neutral/900}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "surface/disabled": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/100}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/100}",
+          "HC Dark": "{FG / Primitive Color::neutral/900}"
+        },
+        "surface/elevated": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/0}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/950}"
+        },
+        "surface/inverse": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/950}",
+          "Dark": "{FG / Primitive Color::neutral/0}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "surface/overlay": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::alpha/black-60}",
+          "Dark": "{FG / Primitive Color::alpha/black-72}",
+          "HC Light": "{FG / Primitive Color::alpha/black-72}",
+          "HC Dark": "{FG / Primitive Color::alpha/black-72}"
+        },
+        "surface/selected": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::selection}",
+          "Dark": "{FG / Theme::accent/900}",
+          "HC Light": "{FG / Primitive Color::neutral/100}",
+          "HC Dark": "{FG / Primitive Color::neutral/900}"
+        },
+        "surface/skeleton": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/200}",
+          "Dark": "{FG / Primitive Color::neutral/700}",
+          "HC Light": "{FG / Primitive Color::neutral/300}",
+          "HC Dark": "{FG / Primitive Color::neutral/600}"
+        },
+        "surface/subtle": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/100}",
+          "Dark": "{FG / Primitive Color::neutral/800}",
+          "HC Light": "{FG / Primitive Color::neutral/50}",
+          "HC Dark": "{FG / Primitive Color::neutral/950}"
+        },
+        "surface/sunken": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/200}",
+          "Dark": "{FG / Primitive Color::neutral/950}",
+          "HC Light": "{FG / Primitive Color::neutral/100}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "text/brand": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::brand/700}",
+          "Dark": "{FG / Theme::brand/300}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "text/disabled": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/400}",
+          "Dark": "{FG / Primitive Color::neutral/600}",
+          "HC Light": "{FG / Primitive Color::neutral/600}",
+          "HC Dark": "{FG / Primitive Color::neutral/400}"
+        },
+        "text/inverse": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/0}",
+          "Dark": "{FG / Primitive Color::neutral/950}",
+          "HC Light": "{FG / Primitive Color::neutral/0}",
+          "HC Dark": "{FG / Primitive Color::neutral/1000}"
+        },
+        "text/link": {
+          "type": "COLOR",
+          "Light": "{FG / Theme::brand/700}",
+          "Dark": "{FG / Theme::brand/300}",
+          "HC Light": "{FG / Theme::brand/800}",
+          "HC Dark": "{FG / Theme::brand/200}"
+        },
+        "text/primary": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/950}",
+          "Dark": "{FG / Primitive Color::neutral/50}",
+          "HC Light": "{FG / Primitive Color::neutral/1000}",
+          "HC Dark": "{FG / Primitive Color::neutral/0}"
+        },
+        "text/secondary": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/600}",
+          "Dark": "{FG / Primitive Color::neutral/300}",
+          "HC Light": "{FG / Primitive Color::neutral/900}",
+          "HC Dark": "{FG / Primitive Color::neutral/100}"
+        },
+        "text/tertiary": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::neutral/500}",
+          "Dark": "{FG / Primitive Color::neutral/400}",
+          "HC Light": "{FG / Primitive Color::neutral/800}",
+          "HC Dark": "{FG / Primitive Color::neutral/200}"
+        },
+        "data/series-01": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::blue/600}",
+          "Dark": "{FG / Primitive Color::blue/400}",
+          "HC Light": "{FG / Primitive Color::blue/800}",
+          "HC Dark": "{FG / Primitive Color::blue/200}"
+        },
+        "data/series-02": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::cyan/600}",
+          "Dark": "{FG / Primitive Color::cyan/400}",
+          "HC Light": "{FG / Primitive Color::cyan/800}",
+          "HC Dark": "{FG / Primitive Color::cyan/200}"
+        },
+        "data/series-03": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::green/600}",
+          "Dark": "{FG / Primitive Color::green/400}",
+          "HC Light": "{FG / Primitive Color::green/800}",
+          "HC Dark": "{FG / Primitive Color::green/200}"
+        },
+        "data/series-04": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::amber/600}",
+          "Dark": "{FG / Primitive Color::amber/400}",
+          "HC Light": "{FG / Primitive Color::amber/800}",
+          "HC Dark": "{FG / Primitive Color::amber/200}"
+        },
+        "data/series-05": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::red/600}",
+          "Dark": "{FG / Primitive Color::red/400}",
+          "HC Light": "{FG / Primitive Color::red/800}",
+          "HC Dark": "{FG / Primitive Color::red/200}"
+        },
+        "data/series-06": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::purple/600}",
+          "Dark": "{FG / Primitive Color::purple/400}",
+          "HC Light": "{FG / Primitive Color::purple/800}",
+          "HC Dark": "{FG / Primitive Color::purple/200}"
+        },
+        "data/series-07": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::pink/600}",
+          "Dark": "{FG / Primitive Color::pink/400}",
+          "HC Light": "{FG / Primitive Color::pink/800}",
+          "HC Dark": "{FG / Primitive Color::pink/200}"
+        },
+        "data/series-08": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::blue/400}",
+          "Dark": "{FG / Primitive Color::blue/300}",
+          "HC Light": "{FG / Primitive Color::blue/600}",
+          "HC Dark": "{FG / Primitive Color::blue/400}"
+        },
+        "data/series-09": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::cyan/400}",
+          "Dark": "{FG / Primitive Color::cyan/300}",
+          "HC Light": "{FG / Primitive Color::cyan/600}",
+          "HC Dark": "{FG / Primitive Color::cyan/400}"
+        },
+        "data/series-10": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::green/400}",
+          "Dark": "{FG / Primitive Color::green/300}",
+          "HC Light": "{FG / Primitive Color::green/600}",
+          "HC Dark": "{FG / Primitive Color::green/400}"
+        },
+        "data/series-11": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::amber/400}",
+          "Dark": "{FG / Primitive Color::amber/300}",
+          "HC Light": "{FG / Primitive Color::amber/600}",
+          "HC Dark": "{FG / Primitive Color::amber/400}"
+        },
+        "data/series-12": {
+          "type": "COLOR",
+          "Light": "{FG / Primitive Color::purple/400}",
+          "Dark": "{FG / Primitive Color::purple/300}",
+          "HC Light": "{FG / Primitive Color::purple/600}",
+          "HC Dark": "{FG / Primitive Color::purple/400}"
+        }
+      }
+    },
+    {
+      "collection": "FG / Density",
+      "modes": [
+        "Compact",
+        "Comfortable",
+        "Touch"
+      ],
+      "tokens": {
+        "card/padding": {
+          "type": "FLOAT",
+          "Compact": 12,
+          "Comfortable": 16,
+          "Touch": 20
+        },
+        "control/gap": {
+          "type": "FLOAT",
+          "Compact": 6,
+          "Comfortable": 8,
+          "Touch": 12
+        },
+        "control/height/lg": {
+          "type": "FLOAT",
+          "Compact": 40,
+          "Comfortable": 48,
+          "Touch": 56
+        },
+        "control/height/md": {
+          "type": "FLOAT",
+          "Compact": 32,
+          "Comfortable": 40,
+          "Touch": 48
+        },
+        "control/height/sm": {
+          "type": "FLOAT",
+          "Compact": 28,
+          "Comfortable": 32,
+          "Touch": 44
+        },
+        "control/padding-x/lg": {
+          "type": "FLOAT",
+          "Compact": 14,
+          "Comfortable": 20,
+          "Touch": 24
+        },
+        "control/padding-x/md": {
+          "type": "FLOAT",
+          "Compact": 12,
+          "Comfortable": 16,
+          "Touch": 20
+        },
+        "control/padding-x/sm": {
+          "type": "FLOAT",
+          "Compact": 10,
+          "Comfortable": 12,
+          "Touch": 16
+        },
+        "form/field-gap": {
+          "type": "FLOAT",
+          "Compact": 12,
+          "Comfortable": 16,
+          "Touch": 20
+        },
+        "input/padding-x": {
+          "type": "FLOAT",
+          "Compact": 10,
+          "Comfortable": 12,
+          "Touch": 16
+        },
+        "input/padding-y": {
+          "type": "FLOAT",
+          "Compact": 6,
+          "Comfortable": 8,
+          "Touch": 12
+        },
+        "list/row-height": {
+          "type": "FLOAT",
+          "Compact": 36,
+          "Comfortable": 44,
+          "Touch": 52
+        },
+        "nav/item-height": {
+          "type": "FLOAT",
+          "Compact": 32,
+          "Comfortable": 40,
+          "Touch": 48
+        },
+        "sidebar/item-height": {
+          "type": "FLOAT",
+          "Compact": 32,
+          "Comfortable": 40,
+          "Touch": 48
+        },
+        "table/cell-padding-x": {
+          "type": "FLOAT",
+          "Compact": 8,
+          "Comfortable": 12,
+          "Touch": 16
+        },
+        "table/cell-padding-y": {
+          "type": "FLOAT",
+          "Compact": 4,
+          "Comfortable": 8,
+          "Touch": 12
+        },
+        "table/row-height": {
+          "type": "FLOAT",
+          "Compact": 32,
+          "Comfortable": 44,
+          "Touch": 52
+        }
+      }
+    },
+    {
+      "collection": "FG / Layout",
+      "modes": [
+        "Value"
+      ],
+      "tokens": {
+        "border/width/hairline": {
+          "type": "FLOAT",
+          "Value": 1
+        },
+        "border/width/medium": {
+          "type": "FLOAT",
+          "Value": 2
+        },
+        "border/width/strong": {
+          "type": "FLOAT",
+          "Value": 3
+        },
+        "breakpoint/lg": {
+          "type": "FLOAT",
+          "Value": 1024
+        },
+        "breakpoint/md": {
+          "type": "FLOAT",
+          "Value": 768
+        },
+        "breakpoint/sm": {
+          "type": "FLOAT",
+          "Value": 480
+        },
+        "breakpoint/xl": {
+          "type": "FLOAT",
+          "Value": 1440
+        },
+        "breakpoint/xs": {
+          "type": "FLOAT",
+          "Value": 0
+        },
+        "container/lg": {
+          "type": "FLOAT",
+          "Value": 1024
+        },
+        "container/max": {
+          "type": "FLOAT",
+          "Value": 1440
+        },
+        "container/md": {
+          "type": "FLOAT",
+          "Value": 768
+        },
+        "container/sm": {
+          "type": "FLOAT",
+          "Value": 640
+        },
+        "container/xl": {
+          "type": "FLOAT",
+          "Value": 1280
+        },
+        "opacity/disabled": {
+          "type": "FLOAT",
+          "Value": 0.4
+        },
+        "opacity/hidden": {
+          "type": "FLOAT",
+          "Value": 0
+        },
+        "opacity/muted": {
+          "type": "FLOAT",
+          "Value": 0.64
+        },
+        "opacity/on-action-divider": {
+          "type": "FLOAT",
+          "Value": 0.24
+        },
+        "opacity/overlay": {
+          "type": "FLOAT",
+          "Value": 0.72
+        },
+        "radius/2xl": {
+          "type": "FLOAT",
+          "Value": 24
+        },
+        "radius/full": {
+          "type": "FLOAT",
+          "Value": 999
+        },
+        "radius/lg": {
+          "type": "FLOAT",
+          "Value": 12
+        },
+        "radius/md": {
+          "type": "FLOAT",
+          "Value": 8
+        },
+        "radius/none": {
+          "type": "FLOAT",
+          "Value": 0
+        },
+        "radius/sm": {
+          "type": "FLOAT",
+          "Value": 6
+        },
+        "radius/xl": {
+          "type": "FLOAT",
+          "Value": 16
+        },
+        "radius/xs": {
+          "type": "FLOAT",
+          "Value": 4
+        },
+        "size/avatar/lg": {
+          "type": "FLOAT",
+          "Value": 48
+        },
+        "size/avatar/md": {
+          "type": "FLOAT",
+          "Value": 40
+        },
+        "size/avatar/sm": {
+          "type": "FLOAT",
+          "Value": 32
+        },
+        "size/avatar/xl": {
+          "type": "FLOAT",
+          "Value": 64
+        },
+        "size/avatar/xs": {
+          "type": "FLOAT",
+          "Value": 24
+        },
+        "size/control/lg": {
+          "type": "FLOAT",
+          "Value": 48
+        },
+        "size/control/md": {
+          "type": "FLOAT",
+          "Value": 40
+        },
+        "size/control/sm": {
+          "type": "FLOAT",
+          "Value": 32
+        },
+        "size/icon/12": {
+          "type": "FLOAT",
+          "Value": 12
+        },
+        "size/icon/16": {
+          "type": "FLOAT",
+          "Value": 16
+        },
+        "size/icon/20": {
+          "type": "FLOAT",
+          "Value": 20
+        },
+        "size/icon/24": {
+          "type": "FLOAT",
+          "Value": 24
+        },
+        "size/icon/32": {
+          "type": "FLOAT",
+          "Value": 32
+        },
+        "size/presence/lg": {
+          "type": "FLOAT",
+          "Value": 12
+        },
+        "size/presence/md": {
+          "type": "FLOAT",
+          "Value": 10
+        },
+        "size/presence/sm": {
+          "type": "FLOAT",
+          "Value": 8
+        },
+        "size/presence/xl": {
+          "type": "FLOAT",
+          "Value": 14
+        },
+        "size/presence/xs": {
+          "type": "FLOAT",
+          "Value": 6
+        },
+        "size/textarea/lg": {
+          "type": "FLOAT",
+          "Value": 160
+        },
+        "size/textarea/md": {
+          "type": "FLOAT",
+          "Value": 120
+        },
+        "size/textarea/sm": {
+          "type": "FLOAT",
+          "Value": 80
+        },
+        "size/touch/min": {
+          "type": "FLOAT",
+          "Value": 44
+        },
+        "space/0": {
+          "type": "FLOAT",
+          "Value": 0
+        },
+        "space/12": {
+          "type": "FLOAT",
+          "Value": 12
+        },
+        "space/16": {
+          "type": "FLOAT",
+          "Value": 16
+        },
+        "space/2": {
+          "type": "FLOAT",
+          "Value": 2
+        },
+        "space/20": {
+          "type": "FLOAT",
+          "Value": 20
+        },
+        "space/24": {
+          "type": "FLOAT",
+          "Value": 24
+        },
+        "space/32": {
+          "type": "FLOAT",
+          "Value": 32
+        },
+        "space/4": {
+          "type": "FLOAT",
+          "Value": 4
+        },
+        "space/40": {
+          "type": "FLOAT",
+          "Value": 40
+        },
+        "space/48": {
+          "type": "FLOAT",
+          "Value": 48
+        },
+        "space/6": {
+          "type": "FLOAT",
+          "Value": 6
+        },
+        "space/64": {
+          "type": "FLOAT",
+          "Value": 64
+        },
+        "space/8": {
+          "type": "FLOAT",
+          "Value": 8
+        },
+        "space/80": {
+          "type": "FLOAT",
+          "Value": 80
+        },
+        "space/96": {
+          "type": "FLOAT",
+          "Value": 96
+        }
+      }
+    },
+    {
+      "collection": "FG / Typography",
+      "modes": [
+        "Value"
+      ],
+      "tokens": {
+        "family/mono": {
+          "type": "STRING",
+          "Value": "IBM Plex Mono"
+        },
+        "family/sans": {
+          "type": "STRING",
+          "Value": "Inter"
+        },
+        "line/16": {
+          "type": "FLOAT",
+          "Value": 16
+        },
+        "line/20": {
+          "type": "FLOAT",
+          "Value": 20
+        },
+        "line/24": {
+          "type": "FLOAT",
+          "Value": 24
+        },
+        "line/28": {
+          "type": "FLOAT",
+          "Value": 28
+        },
+        "line/32": {
+          "type": "FLOAT",
+          "Value": 32
+        },
+        "line/38": {
+          "type": "FLOAT",
+          "Value": 38
+        },
+        "line/44": {
+          "type": "FLOAT",
+          "Value": 44
+        },
+        "line/48": {
+          "type": "FLOAT",
+          "Value": 48
+        },
+        "line/56": {
+          "type": "FLOAT",
+          "Value": 56
+        },
+        "size/12": {
+          "type": "FLOAT",
+          "Value": 12
+        },
+        "size/14": {
+          "type": "FLOAT",
+          "Value": 14
+        },
+        "size/16": {
+          "type": "FLOAT",
+          "Value": 16
+        },
+        "size/18": {
+          "type": "FLOAT",
+          "Value": 18
+        },
+        "size/20": {
+          "type": "FLOAT",
+          "Value": 20
+        },
+        "size/24": {
+          "type": "FLOAT",
+          "Value": 24
+        },
+        "size/30": {
+          "type": "FLOAT",
+          "Value": 30
+        },
+        "size/36": {
+          "type": "FLOAT",
+          "Value": 36
+        },
+        "size/40": {
+          "type": "FLOAT",
+          "Value": 40
+        },
+        "size/48": {
+          "type": "FLOAT",
+          "Value": 48
+        },
+        "tracking/normal": {
+          "type": "FLOAT",
+          "Value": 0
+        },
+        "tracking/tight-1": {
+          "type": "FLOAT",
+          "Value": -0.4
+        },
+        "tracking/tight-2": {
+          "type": "FLOAT",
+          "Value": -0.8
+        },
+        "tracking/wide-1": {
+          "type": "FLOAT",
+          "Value": 0.1
+        },
+        "weight/bold": {
+          "type": "FLOAT",
+          "Value": 700
+        },
+        "weight/medium": {
+          "type": "FLOAT",
+          "Value": 500
+        },
+        "weight/regular": {
+          "type": "FLOAT",
+          "Value": 400
+        },
+        "weight/semibold": {
+          "type": "FLOAT",
+          "Value": 600
+        }
+      }
+    },
+    {
+      "collection": "FG / Motion",
+      "modes": [
+        "Standard",
+        "Reduced"
+      ],
+      "tokens": {
+        "duration/fast": {
+          "type": "FLOAT",
+          "Standard": 120,
+          "Reduced": 0
+        },
+        "duration/normal": {
+          "type": "FLOAT",
+          "Standard": 200,
+          "Reduced": 0
+        },
+        "duration/slow": {
+          "type": "FLOAT",
+          "Standard": 320,
+          "Reduced": 0
+        },
+        "duration/slower": {
+          "type": "FLOAT",
+          "Standard": 480,
+          "Reduced": 0
+        },
+        "easing/enter": {
+          "type": "STRING",
+          "Standard": "cubic-bezier(0, 0, 0.2, 1)",
+          "Reduced": "linear"
+        },
+        "easing/exit": {
+          "type": "STRING",
+          "Standard": "cubic-bezier(0.4, 0, 1, 1)",
+          "Reduced": "linear"
+        },
+        "easing/standard": {
+          "type": "STRING",
+          "Standard": "cubic-bezier(0.2, 0, 0, 1)",
+          "Reduced": "linear"
+        }
+      }
+    }
+  ]
+}

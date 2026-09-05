@@ -1,0 +1,522 @@
+{
+  "collection": "FG / Semantic Color",
+  "modes": [
+    "Light",
+    "Dark",
+    "HC Light",
+    "HC Dark"
+  ],
+  "tokens": {
+    "action/destructive/default": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/600}",
+      "Dark": "{FG / Primitive Color::red/600}",
+      "HC Light": "{FG / Primitive Color::red/800}",
+      "HC Dark": "{FG / Primitive Color::red/300}"
+    },
+    "action/destructive/disabled": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/200}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/200}",
+      "HC Dark": "{FG / Primitive Color::neutral/800}"
+    },
+    "action/destructive/hover": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/700}",
+      "Dark": "{FG / Primitive Color::red/700}",
+      "HC Light": "{FG / Primitive Color::red/900}",
+      "HC Dark": "{FG / Primitive Color::red/200}"
+    },
+    "action/destructive/pressed": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/800}",
+      "Dark": "{FG / Primitive Color::red/800}",
+      "HC Light": "{FG / Primitive Color::red/950}",
+      "HC Dark": "{FG / Primitive Color::red/400}"
+    },
+    "action/destructive/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/0}",
+      "Dark": "{FG / Primitive Color::neutral/0}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "action/ghost/default": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::alpha/transparent}",
+      "Dark": "{FG / Primitive Color::alpha/transparent}",
+      "HC Light": "{FG / Primitive Color::alpha/transparent}",
+      "HC Dark": "{FG / Primitive Color::alpha/transparent}"
+    },
+    "action/ghost/hover": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/100}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/100}",
+      "HC Dark": "{FG / Primitive Color::neutral/900}"
+    },
+    "action/ghost/pressed": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/200}",
+      "Dark": "{FG / Primitive Color::neutral/700}",
+      "HC Light": "{FG / Primitive Color::neutral/200}",
+      "HC Dark": "{FG / Primitive Color::neutral/800}"
+    },
+    "action/ghost/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/800}",
+      "Dark": "{FG / Primitive Color::neutral/100}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "action/primary/default": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::brand/700}",
+      "Dark": "{FG / Theme::brand/400}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "action/primary/disabled": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/200}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/200}",
+      "HC Dark": "{FG / Primitive Color::neutral/800}"
+    },
+    "action/primary/hover": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::brand/800}",
+      "Dark": "{FG / Theme::brand/300}",
+      "HC Light": "{FG / Primitive Color::neutral/900}",
+      "HC Dark": "{FG / Primitive Color::neutral/100}"
+    },
+    "action/primary/pressed": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::brand/900}",
+      "Dark": "{FG / Theme::brand/500}",
+      "HC Light": "{FG / Primitive Color::neutral/800}",
+      "HC Dark": "{FG / Primitive Color::neutral/200}"
+    },
+    "action/primary/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/0}",
+      "Dark": "{FG / Primitive Color::neutral/1000}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "action/secondary/default": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/0}",
+      "Dark": "{FG / Primitive Color::neutral/900}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "action/secondary/disabled": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/100}",
+      "Dark": "{FG / Primitive Color::neutral/900}",
+      "HC Light": "{FG / Primitive Color::neutral/100}",
+      "HC Dark": "{FG / Primitive Color::neutral/900}"
+    },
+    "action/secondary/hover": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/100}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/100}",
+      "HC Dark": "{FG / Primitive Color::neutral/900}"
+    },
+    "action/secondary/pressed": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/200}",
+      "Dark": "{FG / Primitive Color::neutral/700}",
+      "HC Light": "{FG / Primitive Color::neutral/200}",
+      "HC Dark": "{FG / Primitive Color::neutral/800}"
+    },
+    "action/secondary/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/800}",
+      "Dark": "{FG / Primitive Color::neutral/100}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "border/default": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/300}",
+      "Dark": "{FG / Primitive Color::neutral/700}",
+      "HC Light": "{FG / Primitive Color::neutral/900}",
+      "HC Dark": "{FG / Primitive Color::neutral/100}"
+    },
+    "border/error": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/600}",
+      "Dark": "{FG / Primitive Color::red/400}",
+      "HC Light": "{FG / Primitive Color::red/800}",
+      "HC Dark": "{FG / Primitive Color::red/200}"
+    },
+    "border/focus": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::focus}",
+      "Dark": "{FG / Theme::focus}",
+      "HC Light": "{FG / Theme::focus}",
+      "HC Dark": "{FG / Theme::focus}"
+    },
+    "border/strong": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/500}",
+      "Dark": "{FG / Primitive Color::neutral/500}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "border/subtle": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/200}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/700}",
+      "HC Dark": "{FG / Primitive Color::neutral/300}"
+    },
+    "icon/brand": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::brand/700}",
+      "Dark": "{FG / Theme::brand/300}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "icon/disabled": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/400}",
+      "Dark": "{FG / Primitive Color::neutral/600}",
+      "HC Light": "{FG / Primitive Color::neutral/600}",
+      "HC Dark": "{FG / Primitive Color::neutral/400}"
+    },
+    "icon/inverse": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/0}",
+      "Dark": "{FG / Primitive Color::neutral/950}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "icon/primary": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/800}",
+      "Dark": "{FG / Primitive Color::neutral/100}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "icon/secondary": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/600}",
+      "Dark": "{FG / Primitive Color::neutral/300}",
+      "HC Light": "{FG / Primitive Color::neutral/900}",
+      "HC Dark": "{FG / Primitive Color::neutral/100}"
+    },
+    "icon/tertiary": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/500}",
+      "Dark": "{FG / Primitive Color::neutral/400}",
+      "HC Light": "{FG / Primitive Color::neutral/800}",
+      "HC Dark": "{FG / Primitive Color::neutral/200}"
+    },
+    "status/error/bg": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/50}",
+      "Dark": "{FG / Primitive Color::red/950}",
+      "HC Light": "{FG / Primitive Color::red/50}",
+      "HC Dark": "{FG / Primitive Color::red/950}"
+    },
+    "status/error/border": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/300}",
+      "Dark": "{FG / Primitive Color::red/700}",
+      "HC Light": "{FG / Primitive Color::red/900}",
+      "HC Dark": "{FG / Primitive Color::red/200}"
+    },
+    "status/error/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/800}",
+      "Dark": "{FG / Primitive Color::red/200}",
+      "HC Light": "{FG / Primitive Color::red/950}",
+      "HC Dark": "{FG / Primitive Color::red/100}"
+    },
+    "status/info/bg": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::blue/50}",
+      "Dark": "{FG / Primitive Color::blue/950}",
+      "HC Light": "{FG / Primitive Color::blue/50}",
+      "HC Dark": "{FG / Primitive Color::blue/950}"
+    },
+    "status/info/border": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::blue/300}",
+      "Dark": "{FG / Primitive Color::blue/700}",
+      "HC Light": "{FG / Primitive Color::blue/900}",
+      "HC Dark": "{FG / Primitive Color::blue/200}"
+    },
+    "status/info/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::blue/800}",
+      "Dark": "{FG / Primitive Color::blue/200}",
+      "HC Light": "{FG / Primitive Color::blue/950}",
+      "HC Dark": "{FG / Primitive Color::blue/100}"
+    },
+    "status/success/bg": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::green/50}",
+      "Dark": "{FG / Primitive Color::green/950}",
+      "HC Light": "{FG / Primitive Color::green/50}",
+      "HC Dark": "{FG / Primitive Color::green/950}"
+    },
+    "status/success/border": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::green/300}",
+      "Dark": "{FG / Primitive Color::green/700}",
+      "HC Light": "{FG / Primitive Color::green/900}",
+      "HC Dark": "{FG / Primitive Color::green/200}"
+    },
+    "status/success/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::green/800}",
+      "Dark": "{FG / Primitive Color::green/200}",
+      "HC Light": "{FG / Primitive Color::green/950}",
+      "HC Dark": "{FG / Primitive Color::green/100}"
+    },
+    "status/warning/bg": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::amber/50}",
+      "Dark": "{FG / Primitive Color::amber/950}",
+      "HC Light": "{FG / Primitive Color::amber/50}",
+      "HC Dark": "{FG / Primitive Color::amber/950}"
+    },
+    "status/warning/border": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::amber/300}",
+      "Dark": "{FG / Primitive Color::amber/700}",
+      "HC Light": "{FG / Primitive Color::amber/900}",
+      "HC Dark": "{FG / Primitive Color::amber/200}"
+    },
+    "status/warning/text": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::amber/800}",
+      "Dark": "{FG / Primitive Color::amber/200}",
+      "HC Light": "{FG / Primitive Color::amber/950}",
+      "HC Dark": "{FG / Primitive Color::amber/100}"
+    },
+    "surface/accent-subtle": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::accent/100}",
+      "Dark": "{FG / Theme::accent/950}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "surface/brand-subtle": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::brand/100}",
+      "Dark": "{FG / Theme::brand/950}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "surface/canvas": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/50}",
+      "Dark": "{FG / Primitive Color::neutral/950}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "surface/default": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/0}",
+      "Dark": "{FG / Primitive Color::neutral/900}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "surface/disabled": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/100}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/100}",
+      "HC Dark": "{FG / Primitive Color::neutral/900}"
+    },
+    "surface/elevated": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/0}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/950}"
+    },
+    "surface/inverse": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/950}",
+      "Dark": "{FG / Primitive Color::neutral/0}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "surface/overlay": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::alpha/black-60}",
+      "Dark": "{FG / Primitive Color::alpha/black-72}",
+      "HC Light": "{FG / Primitive Color::alpha/black-72}",
+      "HC Dark": "{FG / Primitive Color::alpha/black-72}"
+    },
+    "surface/selected": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::selection}",
+      "Dark": "{FG / Theme::accent/900}",
+      "HC Light": "{FG / Primitive Color::neutral/100}",
+      "HC Dark": "{FG / Primitive Color::neutral/900}"
+    },
+    "surface/skeleton": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/200}",
+      "Dark": "{FG / Primitive Color::neutral/700}",
+      "HC Light": "{FG / Primitive Color::neutral/300}",
+      "HC Dark": "{FG / Primitive Color::neutral/600}"
+    },
+    "surface/subtle": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/100}",
+      "Dark": "{FG / Primitive Color::neutral/800}",
+      "HC Light": "{FG / Primitive Color::neutral/50}",
+      "HC Dark": "{FG / Primitive Color::neutral/950}"
+    },
+    "surface/sunken": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/200}",
+      "Dark": "{FG / Primitive Color::neutral/950}",
+      "HC Light": "{FG / Primitive Color::neutral/100}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "text/brand": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::brand/700}",
+      "Dark": "{FG / Theme::brand/300}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "text/disabled": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/400}",
+      "Dark": "{FG / Primitive Color::neutral/600}",
+      "HC Light": "{FG / Primitive Color::neutral/600}",
+      "HC Dark": "{FG / Primitive Color::neutral/400}"
+    },
+    "text/inverse": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/0}",
+      "Dark": "{FG / Primitive Color::neutral/950}",
+      "HC Light": "{FG / Primitive Color::neutral/0}",
+      "HC Dark": "{FG / Primitive Color::neutral/1000}"
+    },
+    "text/link": {
+      "type": "COLOR",
+      "Light": "{FG / Theme::brand/700}",
+      "Dark": "{FG / Theme::brand/300}",
+      "HC Light": "{FG / Theme::brand/800}",
+      "HC Dark": "{FG / Theme::brand/200}"
+    },
+    "text/primary": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/950}",
+      "Dark": "{FG / Primitive Color::neutral/50}",
+      "HC Light": "{FG / Primitive Color::neutral/1000}",
+      "HC Dark": "{FG / Primitive Color::neutral/0}"
+    },
+    "text/secondary": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/600}",
+      "Dark": "{FG / Primitive Color::neutral/300}",
+      "HC Light": "{FG / Primitive Color::neutral/900}",
+      "HC Dark": "{FG / Primitive Color::neutral/100}"
+    },
+    "text/tertiary": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::neutral/500}",
+      "Dark": "{FG / Primitive Color::neutral/400}",
+      "HC Light": "{FG / Primitive Color::neutral/800}",
+      "HC Dark": "{FG / Primitive Color::neutral/200}"
+    },
+    "data/series-01": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::blue/600}",
+      "Dark": "{FG / Primitive Color::blue/400}",
+      "HC Light": "{FG / Primitive Color::blue/800}",
+      "HC Dark": "{FG / Primitive Color::blue/200}"
+    },
+    "data/series-02": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::cyan/600}",
+      "Dark": "{FG / Primitive Color::cyan/400}",
+      "HC Light": "{FG / Primitive Color::cyan/800}",
+      "HC Dark": "{FG / Primitive Color::cyan/200}"
+    },
+    "data/series-03": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::green/600}",
+      "Dark": "{FG / Primitive Color::green/400}",
+      "HC Light": "{FG / Primitive Color::green/800}",
+      "HC Dark": "{FG / Primitive Color::green/200}"
+    },
+    "data/series-04": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::amber/600}",
+      "Dark": "{FG / Primitive Color::amber/400}",
+      "HC Light": "{FG / Primitive Color::amber/800}",
+      "HC Dark": "{FG / Primitive Color::amber/200}"
+    },
+    "data/series-05": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::red/600}",
+      "Dark": "{FG / Primitive Color::red/400}",
+      "HC Light": "{FG / Primitive Color::red/800}",
+      "HC Dark": "{FG / Primitive Color::red/200}"
+    },
+    "data/series-06": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::purple/600}",
+      "Dark": "{FG / Primitive Color::purple/400}",
+      "HC Light": "{FG / Primitive Color::purple/800}",
+      "HC Dark": "{FG / Primitive Color::purple/200}"
+    },
+    "data/series-07": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::pink/600}",
+      "Dark": "{FG / Primitive Color::pink/400}",
+      "HC Light": "{FG / Primitive Color::pink/800}",
+      "HC Dark": "{FG / Primitive Color::pink/200}"
+    },
+    "data/series-08": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::blue/400}",
+      "Dark": "{FG / Primitive Color::blue/300}",
+      "HC Light": "{FG / Primitive Color::blue/600}",
+      "HC Dark": "{FG / Primitive Color::blue/400}"
+    },
+    "data/series-09": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::cyan/400}",
+      "Dark": "{FG / Primitive Color::cyan/300}",
+      "HC Light": "{FG / Primitive Color::cyan/600}",
+      "HC Dark": "{FG / Primitive Color::cyan/400}"
+    },
+    "data/series-10": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::green/400}",
+      "Dark": "{FG / Primitive Color::green/300}",
+      "HC Light": "{FG / Primitive Color::green/600}",
+      "HC Dark": "{FG / Primitive Color::green/400}"
+    },
+    "data/series-11": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::amber/400}",
+      "Dark": "{FG / Primitive Color::amber/300}",
+      "HC Light": "{FG / Primitive Color::amber/600}",
+      "HC Dark": "{FG / Primitive Color::amber/400}"
+    },
+    "data/series-12": {
+      "type": "COLOR",
+      "Light": "{FG / Primitive Color::purple/400}",
+      "Dark": "{FG / Primitive Color::purple/300}",
+      "HC Light": "{FG / Primitive Color::purple/600}",
+      "HC Dark": "{FG / Primitive Color::purple/400}"
+    }
+  }
+}
