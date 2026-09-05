@@ -1,0 +1,21 @@
+{
+  "name": "FORGE v1",
+  "figmaFileKey": "fsCvPcjtvgfHQsw4DnLw7H",
+  "status": "release-ready-design / implementation-bootstrap",
+  "metrics": {
+    "coreSections": 8,
+    "componentFamilies": 65,
+    "variables": 307,
+    "slotProperties": 29,
+    "instanceSwapProperties": 26
+  },
+  "collections": {
+    "FG / Primitive Color": ["Value"],
+    "FG / Theme": ["Neutral", "Clinical", "Cyber", "Organic", "Premium"],
+    "FG / Semantic Color": ["Light", "Dark", "HC Light", "HC Dark"],
+    "FG / Density": ["Compact", "Comfortable", "Touch"],
+    "FG / Layout": ["Value"],
+    "FG / Typography": ["Value"],
+    "FG / Motion": ["Standard", "Reduced"]
+  }
+}

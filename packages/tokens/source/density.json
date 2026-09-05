@@ -1,0 +1,112 @@
+{
+  "collection": "FG / Density",
+  "modes": [
+    "Compact",
+    "Comfortable",
+    "Touch"
+  ],
+  "tokens": {
+    "card/padding": {
+      "type": "FLOAT",
+      "Compact": 12,
+      "Comfortable": 16,
+      "Touch": 20
+    },
+    "control/gap": {
+      "type": "FLOAT",
+      "Compact": 6,
+      "Comfortable": 8,
+      "Touch": 12
+    },
+    "control/height/lg": {
+      "type": "FLOAT",
+      "Compact": 40,
+      "Comfortable": 48,
+      "Touch": 56
+    },
+    "control/height/md": {
+      "type": "FLOAT",
+      "Compact": 32,
+      "Comfortable": 40,
+      "Touch": 48
+    },
+    "control/height/sm": {
+      "type": "FLOAT",
+      "Compact": 28,
+      "Comfortable": 32,
+      "Touch": 44
+    },
+    "control/padding-x/lg": {
+      "type": "FLOAT",
+      "Compact": 14,
+      "Comfortable": 20,
+      "Touch": 24
+    },
+    "control/padding-x/md": {
+      "type": "FLOAT",
+      "Compact": 12,
+      "Comfortable": 16,
+      "Touch": 20
+    },
+    "control/padding-x/sm": {
+      "type": "FLOAT",
+      "Compact": 10,
+      "Comfortable": 12,
+      "Touch": 16
+    },
+    "form/field-gap": {
+      "type": "FLOAT",
+      "Compact": 12,
+      "Comfortable": 16,
+      "Touch": 20
+    },
+    "input/padding-x": {
+      "type": "FLOAT",
+      "Compact": 10,
+      "Comfortable": 12,
+      "Touch": 16
+    },
+    "input/padding-y": {
+      "type": "FLOAT",
+      "Compact": 6,
+      "Comfortable": 8,
+      "Touch": 12
+    },
+    "list/row-height": {
+      "type": "FLOAT",
+      "Compact": 36,
+      "Comfortable": 44,
+      "Touch": 52
+    },
+    "nav/item-height": {
+      "type": "FLOAT",
+      "Compact": 32,
+      "Comfortable": 40,
+      "Touch": 48
+    },
+    "sidebar/item-height": {
+      "type": "FLOAT",
+      "Compact": 32,
+      "Comfortable": 40,
+      "Touch": 48
+    },
+    "table/cell-padding-x": {
+      "type": "FLOAT",
+      "Compact": 8,
+      "Comfortable": 12,
+      "Touch": 16
+    },
+    "table/cell-padding-y": {
+      "type": "FLOAT",
+      "Compact": 4,
+      "Comfortable": 8,
+      "Touch": 12
+    },
+    "table/row-height": {
+      "type": "FLOAT",
+      "Compact": 32,
+      "Comfortable": 44,
+      "Touch": 52
+    }
+  }
+}
