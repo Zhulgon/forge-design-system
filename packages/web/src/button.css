@@ -1,0 +1,50 @@
+@import '@forge/tokens/css';
+
+.forge-button {
+  --fg-button-background: var(--fg-semantic-action-primary-default);
+  --fg-button-foreground: var(--fg-semantic-action-primary-text);
+  --fg-button-disabled-background: var(--fg-semantic-action-primary-disabled);
+  --fg-button-border: var(--fg-semantic-action-primary-default);
+  align-items: center;
+  appearance: none;
+  background: var(--fg-button-background);
+  border: var(--fg-layout-border-width-hairline) solid var(--fg-button-border);
+  border-radius: var(--fg-layout-radius-md);
+  box-sizing: border-box;
+  color: var(--fg-button-foreground);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: var(--fg-type-family-sans);
+  font-size: var(--fg-type-size-14);
+  font-weight: var(--fg-type-weight-semibold);
+  gap: var(--fg-density-control-gap);
+  justify-content: center;
+  line-height: var(--fg-type-line-20);
+  min-width: 0;
+  position: relative;
+  transition: background-color var(--fg-motion-duration-fast) var(--fg-motion-easing-standard), color var(--fg-motion-duration-fast) var(--fg-motion-easing-standard), border-color var(--fg-motion-duration-fast) var(--fg-motion-easing-standard);
+}
+
+.forge-button[data-variant='secondary'] { --fg-button-background: var(--fg-semantic-action-secondary-default); --fg-button-foreground: var(--fg-semantic-action-secondary-text); --fg-button-disabled-background: var(--fg-semantic-action-secondary-disabled); --fg-button-border: var(--fg-semantic-border-default); }
+.forge-button[data-variant='ghost'] { --fg-button-background: var(--fg-semantic-action-ghost-default); --fg-button-foreground: var(--fg-semantic-action-ghost-text); --fg-button-disabled-background: var(--fg-semantic-action-ghost-default); --fg-button-border: var(--fg-semantic-action-ghost-default); }
+.forge-button[data-variant='destructive'] { --fg-button-background: var(--fg-semantic-action-destructive-default); --fg-button-foreground: var(--fg-semantic-action-destructive-text); --fg-button-disabled-background: var(--fg-semantic-action-destructive-disabled); --fg-button-border: var(--fg-semantic-action-destructive-default); }
+
+.forge-button[data-size='sm'] { height: var(--fg-density-control-height-sm); padding-inline: var(--fg-density-control-padding-x-sm); }
+.forge-button[data-size='md'] { height: var(--fg-density-control-height-md); padding-inline: var(--fg-density-control-padding-x-md); }
+.forge-button[data-size='lg'] { height: var(--fg-density-control-height-lg); padding-inline: var(--fg-density-control-padding-x-lg); }
+
+.forge-button:not(:disabled):not([data-loading='true']):hover { background: var(--fg-semantic-action-primary-hover); }
+.forge-button[data-variant='secondary']:not(:disabled):not([data-loading='true']):hover { background: var(--fg-semantic-action-secondary-hover); }
+.forge-button[data-variant='ghost']:not(:disabled):not([data-loading='true']):hover { background: var(--fg-semantic-action-ghost-hover); }
+.forge-button[data-variant='destructive']:not(:disabled):not([data-loading='true']):hover { background: var(--fg-semantic-action-destructive-hover); }
+.forge-button:not(:disabled):not([data-loading='true']):active { background: var(--fg-semantic-action-primary-pressed); }
+.forge-button[data-variant='secondary']:not(:disabled):not([data-loading='true']):active { background: var(--fg-semantic-action-secondary-pressed); }
+.forge-button[data-variant='ghost']:not(:disabled):not([data-loading='true']):active { background: var(--fg-semantic-action-ghost-pressed); }
+.forge-button[data-variant='destructive']:not(:disabled):not([data-loading='true']):active { background: var(--fg-semantic-action-destructive-pressed); }
+
+.forge-button:focus-visible { outline: var(--fg-layout-border-width-medium) solid var(--fg-semantic-border-focus); outline-offset: var(--fg-layout-border-width-medium); }
+.forge-button:disabled, .forge-button[data-loading='true'] { background: var(--fg-button-disabled-background); color: var(--fg-semantic-text-disabled); cursor: not-allowed; }
+.forge-button__content { align-items: center; display: inline-flex; gap: inherit; }
+.forge-button[data-loading='true'] .forge-button__content { opacity: var(--fg-layout-opacity-hidden); }
+.forge-button__spinner { animation: forge-button-spin var(--fg-motion-duration-normal) linear infinite; block-size: 1em; border: var(--fg-layout-border-width-medium) solid currentColor; border-inline-end-color: transparent; border-radius: var(--fg-layout-radius-full); box-sizing: border-box; inline-size: 1em; inset: 0; margin: auto; position: absolute; }
+@keyframes forge-button-spin { to { transform: rotate(1turn); } }

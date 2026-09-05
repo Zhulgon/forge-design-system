@@ -1,1 +1,17 @@
-{"name":"@forge/react","version":"0.0.0","type":"module","peerDependencies":{"react":">=18"},"dependencies":{"@forge/contracts":"workspace:*","@forge/tokens":"workspace:*","@forge/web":"workspace:*"},"exports":{".":"./src/index.ts"}}
+{
+  "name": "@forge/react",
+  "version": "0.1.0",
+  "type": "module",
+  "peerDependencies": { "react": ">=18" },
+  "dependencies": {
+    "@forge/contracts": "workspace:*",
+    "@forge/tokens": "workspace:*",
+    "@forge/web": "workspace:*"
+  },
+  "exports": { ".": { "types": "./src/index.tsx", "import": "./dist/index.js" } },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --config ../../vitest.config.ts"
+  }
+}
