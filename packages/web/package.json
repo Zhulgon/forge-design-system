@@ -5,7 +5,10 @@
   "dependencies": { "@forge/contracts": "workspace:*", "@forge/tokens": "workspace:*" },
   "exports": {
     ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
-    "./button.css": "./src/button.css"
+    "./button.css": "./src/button.css",
+    "./icon-button.css": "./src/icon-button.css",
+    "./link.css": "./src/link.css",
+    "./split-button.css": "./src/split-button.css"
   },
-  "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc -p tsconfig.json --noEmit" }
+  "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc -p tsconfig.typecheck.json --noEmit" }
 }

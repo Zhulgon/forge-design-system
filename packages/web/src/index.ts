@@ -9,6 +9,10 @@ export interface ForgeButtonDomAttributes {
   'data-loading'?: 'true';
 }
 
+export const forgeIconButtonClassName = 'forge-icon-button' as const;
+export const forgeLinkClassName = 'forge-link' as const;
+export const forgeSplitButtonClassName = 'forge-split-button' as const;
+
 /** DOM data contract shared by framework adapters. Root modes remain on an ancestor. */
 export function getForgeButtonDomAttributes(
   options: Pick<ForgeButtonOptions, 'variant' | 'size' | 'loading'>,

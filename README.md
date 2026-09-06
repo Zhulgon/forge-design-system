@@ -16,7 +16,7 @@ The canonical design source is **FORGE v1** in Figma. This repository is the imp
 
 ## Current vertical slice
 
-The first production component is [`Button`](docs/button.md). It demonstrates the intended path from Figma semantic tokens through framework-neutral contracts and web CSS to a thin React adapter.
+Core Actions are [`Button`](docs/button.md), [`Icon Button`](docs/icon-button.md), [`Link`](docs/link.md), and [`Split Button`](docs/split-button.md). They demonstrate the intended path from Figma semantic tokens through framework-neutral contracts and web CSS to thin React adapters.
 
 ## Non-negotiable rules
 

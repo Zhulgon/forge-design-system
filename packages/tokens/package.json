@@ -14,7 +14,7 @@
     "generate": "node scripts/generate.mjs",
     "check:generated": "node scripts/generate.mjs --check",
     "build": "node scripts/generate.mjs && tsc -p tsconfig.json",
-    "typecheck": "node scripts/generate.mjs --check && tsc -p tsconfig.json --noEmit"
+    "typecheck": "node scripts/generate.mjs --check && tsc -p tsconfig.typecheck.json --noEmit"
   },
   "exports": {
     ".": {

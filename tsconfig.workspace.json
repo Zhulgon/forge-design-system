@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@forge/contracts": ["packages/contracts/src/index.ts"],
+      "@forge/tokens": ["packages/tokens/src/index.ts"],
+      "@forge/web": ["packages/web/src/index.ts"],
+      "@forge/react": ["packages/react/src/index.tsx"]
+    }
+  }
+}
